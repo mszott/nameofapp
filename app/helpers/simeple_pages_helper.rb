@@ -1,0 +1,2 @@
+module SimeplePagesHelper
+end
