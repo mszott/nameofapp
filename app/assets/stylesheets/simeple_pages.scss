@@ -5,9 +5,10 @@ nav {
 
 nav ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin-left: 0;
+  padding-left: 10px;
   background-color: #11f74a;
+
 }
 
 nav ul li {
@@ -24,28 +25,24 @@ h1 {
 }
 
 body {
-  margin-left: 30px;
-  margin-top: 30px;
+  // margin-left: 30px;
+  // margin-top: 30px;
 }
 
 .address {
-  margin-left: 60px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 2em;
 }
 
 .owner_email {
-  margin-top: 50px;
-  margin-left: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 2em;
   color: green;
 }
 
 .help_with_list {
   font-size: 25px;
-  margin-left: 70px;
+  // margin-left: 70px;
   color: red;
-  padding-top: 20px;
+  // padding-top: 20px;
 }
 
 .list_title {
@@ -57,29 +54,58 @@ body {
   font-size: 2em;
   font-weight: bold;
   text-decoration: underline;
+  text-align: center;
   float: none;
+
 }
 
 #pic_lawnmower {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 50px;
+  // padding-top: 25px;
+  // padding-bottom: 25px;
+  // padding-right: 50px;
   float: left;
+  margin-left: 30px;
 }
 
 .services_we_offer {
-  font-size: 25px;
+  font-size: 1.3em;
 
 }
 
 .center_column {
   float: left;
-  padding-right: 30px;
+  // padding-right: 30px;
 }
 
 .talk_to_us {
-  padding-bottom: 40px;
+  // padding-bottom: 40px;
 }
+
+.opening_title {
+  font-size: 3em;
+}
+
+.elbow_room {
+  margin-bottom: 3em;
+}
+
+.front_page_text {
+  text-align: center;
+  font-size: 2em;
+  color: blue;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.services_middle {
+  margin-left: 30px;
+}
+
+.mundane_life {
+  margin-top: 1em;
+  color: blue;
+}
+
 
 
 

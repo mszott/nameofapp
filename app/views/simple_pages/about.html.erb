@@ -1,14 +1,19 @@
 <h1>Mike's Landscape Emporium</h1>
+
+<div class="elbow_room">
 <h2>Mike turned his love of yard work and landscaping into a business in 2018.</h2>
 <h3>Check back weekly for specials and deals.  We constantly have great offers!</h3>
 <h3 class="talk_to_us">Talk to us about setting up recurring service.  Thanks for checking in with us weekly!</h3>
-
-
-<div id="pic_lawnmower">
-<%= image_tag("lawnmower_cropped.jpg") %>
 </div>
 
-<div class="center_column">
+<div class="row">
+  <div class="col">
+    <div id="pic_lawnmower">
+      <%= image_tag("lawnmower_cropped.jpg") %>
+    </div>
+  </div>
+
+<div class="col">
   <h1>Services We Offer:</h1>
   <ul class="services_we_offer">
     <li>basic lawn mowing</li>
@@ -19,4 +24,7 @@
   </ul>
 </div>
 
+<div class="col">
 <%= image_tag("leaf_work_cropped.jpg") %>
+</div>
+</div>
