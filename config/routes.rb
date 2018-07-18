@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :products
   get 'simeple_pages/about'
 
   get 'simeple_pages/contact'
