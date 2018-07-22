@@ -1,5 +1,5 @@
 nav {
-  font-size: 2em;
+  font-size: 3em;
   padding-bottom: 40px;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .help_with_list {
-  font-size: 25px;
+  font-size: 3em;
   // margin-left: 70px;
   color: red;
   // padding-top: 20px;
@@ -68,7 +68,8 @@ body {
 }
 
 .services_we_offer {
-  font-size: 1.3em;
+  font-size: 1em;
+  text-align: left;
 
 }
 
@@ -99,6 +100,11 @@ body {
 
 .services_middle {
   margin-left: 30px;
+  font-size: 1em;
+}
+
+.services_midlist {
+  text-align: center;
 }
 
 .mundane_life {
