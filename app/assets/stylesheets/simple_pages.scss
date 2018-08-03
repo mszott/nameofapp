@@ -40,15 +40,17 @@ body {
 }
 
 .help_with_list {
-  font-size: 3em;
+  font-size: 2em;
   // margin-left: 70px;
   color: red;
+  line-height: 28px;
   // padding-top: 20px;
 }
 
 .list_title {
   text-decoration: underline;
   font-weight: bold;
+  text-align: center;
 }
 
 .services_list_title {
@@ -106,6 +108,8 @@ body {
 
 .services_midlist {
   text-align: center;
+  font-size: 28px;
+  color: red;
 }
 
 .mundane_life {
