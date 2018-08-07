@@ -1,5 +1,5 @@
 nav {
-  font-size: 3em;
+  font-size: 5em;
   padding-bottom: 40px;
 }
 
@@ -8,16 +8,17 @@ nav ul {
   margin-left: 0;
   padding-left: 10px;
   background-color: #11f74a;
-  height: 50px;
-
+  line-height: 60px;
 }
 
 nav ul li {
   display: inline;
   padding-right: 75px;
   font-weight: bold;
-
+  height: 40px;
 }
+
+
 
 
 h1 {
