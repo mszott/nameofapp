@@ -31,14 +31,16 @@
   </tbody>
 </table>
 
+<!--code block below loops through my products in database, but does not line them up nicely on page -->
 <div class="container-fluid">
   <div class="row">
     <% @products.each do |product| %>
       <div class="col-sm">
-
+        <%= image_tag(product.image_url, class: "img-fluid") %>
         <a href="#"><h1><%= product.name %></h1></a>
         <p><%= product.description %></p>
-        <strong>$ <%= product.price %></strong>
+        <strong><%= product.price %></strong>
+        <p><%= product.color %></p>
       </div><!-- /col -->
     <% end %>
   </div>
@@ -46,22 +48,24 @@
 
 
 
-<!--
+
+<!-- code below are products lined up correctly using Bootstrap 3 X 3 columns
+
 <div class="container top-row">
   <div class="row">
     <div class="col-sm">
       <a href="#"><h1>Hardwood Mulch</h1></a>
-      <p>Pretty cool bike</p>
+      <p>Our most versatile mulch. Use almost anywhere. Price per cubic yard.</p>
       <strong>$ 42</strong>
     </div>
     <div class="col-sm">
       <a href="#"><h1>Playground Mulch</h1></a>
-      <p>Really cool bike</p>
+      <p>Certified playground mulch, lasts nearly forever! Price per cubic yard.</p>
       <strong>$ 84</strong>
     </div>
     <div class="col-sm">
       <a href="#"><h1>Leaf-Compost Mix</h1></a>
-      <p>Best bike ever</p>
+      <p>Anything will grow in this stuff. Gardener's favorite!</p>
       <strong>$ 999</strong>
     </div>
   </div>
@@ -70,17 +74,17 @@
     <div class="row">
       <div class="col-sm">
         <a href="#"><h1>Pea Gravel</h1></a>
-        <p>Pretty cool bike</p>
+        <p>Versatile, for where you want a different color. Great even for play spaces.</p>
         <strong>$ 42</strong>
       </div>
       <div class="col-sm">
         <a href="#"><h1>Paver Stones</h1></a>
-        <p>Really cool bike</p>
+        <p>Use for patios, driveways, and other DIY projects!</p>
         <strong>$ 84</strong>
       </div>
       <div class="col-sm">
         <a href="#"><h1>Stepping Stones</h1></a>
-        <p>Best bike ever</p>
+        <p>Our best stone for walkways and stepping paths through yards or woods.</p>
         <strong>$ 999</strong>
       </div>
     </div>
@@ -89,31 +93,24 @@
       <div class="row">
         <div class="col-sm">
           <a href="#"><h1>Geotextile Fabric</h1></a>
-          <p>Pretty cool bike</p>
+          <p>Weeds will not get through this! Durable and long-lasting.</p>
           <strong>$ 42</strong>
         </div>
         <div class="col-sm">
           <a href="#"><h1>Azaleas</h1></a>
-          <p>Really cool bike</p>
+          <p>Need a splash of color in the spring? Get these.</p>
           <strong>$ 84</strong>
         </div>
         <div class="col-sm">
           <a href="#"><h1>Liriope Grass</h1></a>
-          <p>Best bike ever</p>
+          <p>Hardy and looks great! Line walkways and use for borders. A southern favorite!</p>
           <strong>$ 999</strong>
         </div>
       </div>
-
 </div>
-
 -->
+
 
 <br>
 
 <%= link_to 'New Product', new_product_path %>
-
-<% paragraph_number = 1 %>
-<% 5.times do %>
-  <p>This is paragraph number <%= paragraph_number %></p>
-  <% paragraph_number = paragraph_number + 1 %>
-<% end %>
