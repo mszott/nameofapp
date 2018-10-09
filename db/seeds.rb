@@ -5,6 +5,3 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-10.times do |n|
-Product.create(name: "Product #{n+1}", description: "Lorem Ipsum", image_url: "http://www.placehold.it/300x400")
-end
